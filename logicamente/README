@@ -18,14 +18,16 @@ apostrophes
 blocks
 '''
 
-3. post-processing commands:
+3. Post-processing commands:
 %!postproc(tex)
 
-4. Including footnotes
+4. Including footnotes (\footnote{...})
 
-5. using bibtex.
+5. Including figures (\begin{figure}...\end{figure})
 
-6. Defining commands
+6. Using bibtex (\cite{...})
+
+7. Defining commands (\newcommand{...}{...})
 
 
 The txt2tags source is cleaner than the latex source? I am not so sure...
