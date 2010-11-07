@@ -1,7 +1,10 @@
 Logicamente - an example of a paper written using txt2tags
 
-Instructions:
-  Run generate_pdf.sh (a bash shell script) and view the generated PDF.
+Instructions for Linux:
+	Download txt2tags 2.6
+	Download Latex
+	Put the three files (syntax_tree.t2t, 	syntax_tree.bib, syntax_tree_1.jpg) in a folder 
+	Run generate_pdf.sh (a bash shell script) and view the generated PDF.
 
 
 Comments:
