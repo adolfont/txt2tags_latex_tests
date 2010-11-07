@@ -1,1 +1,28 @@
+
 Run generate_pdf.sh (a bash shell script) and view the generated PDF.
+
+This document illustrates the use of
+
+1. ''tagged'' marks
+
+2. Three apostrophes blocks:
+
+'''
+three
+apostrophes
+blocks
+'''
+
+3. post-processing commands:
+%!postproc(tex)
+
+4. Including footnotes
+
+5. using bibtex.
+
+6. Defining commands
+
+
+The txt2tags source is cleaner than the latex source? I am not so sure...
+
+%% Adolfo Neto, November, 7th, 2010
