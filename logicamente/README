@@ -1,13 +1,12 @@
 Logicamente - an example of a paper written using txt2tags
 
-
 Instructions:
   Run generate_pdf.sh (a bash shell script) and view the generated PDF.
 
 
 Comments:
 
-This document (syntax_tree.t2t) illustrates the use of
+This document (syntax_tree.t2t) illustrates the use of:
 
 1. ''tagged'' marks
 
