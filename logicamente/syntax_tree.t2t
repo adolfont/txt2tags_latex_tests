@@ -1,0 +1,59 @@
+A Syntax Tree Drawer for Classical Propositional Logic Well-Formed Formulas
+author
+\today
+%!postproc(tex) : "\\clearpage" ""
+%!postproc(tex) : "author{author}" "author{Adolfo Neto (DAINF-UTFPR) \\\\ \url{http://twitter.com/adolfont}}"
+
+
+''\newcommand{\AND}{\wedge}''
+''\newcommand{\OR}{\vee}''
+''\newcommand{\IMP}{\rightarrow}''
+''\newcommand{\NOT}{\neg}''
+
++ Introduction +
+
+In this paper we present a tool for drawing syntax trees for classical proprositional logic 
+formulas''\footnote{Or parse trees, as called by Huth and Ryan \cite{huth-ryan}.}''.
+
+For instance, suppose we have the following formula:
+
+'''
+\[ 
+A \AND (B \OR C) \IMP (B \AND \NOT C) 
+\]
+'''
+
+It can be represented as a syntax tree as in Figure''~\ref{syntax-tree-1}''.
+
+'''
+\begin{figure}[htbp]
+\centering
+'''
+[syntax_tree_1.jpg]
+'''
+\caption{A syntax tree.}
+\label{syntax-tree-1}
+\end{figure}
+'''
+
+
++ Implementation +
+
+We have used some common tools:
+- Java programming language;
+- JUnit testing framework ''\cite{junit}'';
+- CUP parser generator;
+- JFlex parser generator;
+- Eclipse IDE.
+
+
+The source code and latest jar files are available at ''\url{http://github.com/adolfont/Logicamente-UTFPR}''
+
+
+%%% References
+'''
+\bibliographystyle{plain}
+\bibliography{syntax_tree}
+'''
+
+
