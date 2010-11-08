@@ -31,20 +31,8 @@ A \AND (B \OR C) \IMP (B \AND \NOT C)
 
 It can be represented as a syntax tree as in Figure''~\ref{syntax-tree-1}''.
 
-%%@@imagem.png@label@caption@@
 @@syntax-tree-1.jpg@syntax-tree-1@A syntax tree.@@
 
-
-%%'''
-%%\begin{figure}[htbp]
-%%\centering
-%%'''
-%%[syntax_tree_1.jpg]
-%%'''
-%%\caption{A syntax tree.}
-%%\label{syntax-tree-1}
-%%\end{figure}
-%%'''
 
 
 + Implementation +
@@ -65,5 +53,7 @@ The source code and latest jar files are available at ''\url{http://github.com/a
 \bibliographystyle{plain}
 \bibliography{syntax_tree}
 '''
+
+%% Help on PostProc: http://www.mail-archive.com/txt2tags-list@lists.sourceforge.net/msg00141.html
 
 
