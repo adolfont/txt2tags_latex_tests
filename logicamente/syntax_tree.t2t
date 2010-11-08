@@ -4,11 +4,17 @@ author
 %!postproc(tex) : "\\clearpage" ""
 %!postproc(tex) : "author{author}" "author{Adolfo Neto (DAINF-UTFPR) \\\\ \url{http://twitter.com/adolfont}}"
 
+%%@@imagem.png@label@caption@@
+%!postproc(tex): '@@(.*)@(.*)@(.*)@@'	 '\\begin{figure}[htbp]\\centering\\includegraphics{\1}\\caption{\3}\\label{\2}\\end{figure}'
 
-''\newcommand{\AND}{\wedge}''
-''\newcommand{\OR}{\vee}''
-''\newcommand{\IMP}{\rightarrow}''
-''\newcommand{\NOT}{\neg}''
+
+
+'''
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+\newcommand{\IMP}{\rightarrow}
+\newcommand{\NOT}{\neg}
+'''
 
 + Introduction +
 
@@ -25,16 +31,20 @@ A \AND (B \OR C) \IMP (B \AND \NOT C)
 
 It can be represented as a syntax tree as in Figure''~\ref{syntax-tree-1}''.
 
-'''
-\begin{figure}[htbp]
-\centering
-'''
-[syntax_tree_1.jpg]
-'''
-\caption{A syntax tree.}
-\label{syntax-tree-1}
-\end{figure}
-'''
+%%@@imagem.png@label@caption@@
+@@syntax-tree-1.jpg@syntax-tree-1@A syntax tree.@@
+
+
+%%'''
+%%\begin{figure}[htbp]
+%%\centering
+%%'''
+%%[syntax_tree_1.jpg]
+%%'''
+%%\caption{A syntax tree.}
+%%\label{syntax-tree-1}
+%%\end{figure}
+%%'''
 
 
 + Implementation +
