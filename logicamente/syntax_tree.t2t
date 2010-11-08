@@ -4,7 +4,7 @@ author
 %!postproc(tex) : "\\clearpage" ""
 %!postproc(tex) : "author{author}" "author{Adolfo Neto (DAINF-UTFPR) \\\\ \url{http://twitter.com/adolfont}}"
 
-%%@@imagem.png@label@caption@@
+%%@@image@label@caption@@
 %!postproc(tex): '@@(.*)@(.*)@(.*)@@'	 '\\begin{figure}[htbp]\\centering\\includegraphics{\1}\\caption{\3}\\label{\2}\\end{figure}'
 
 
